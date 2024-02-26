@@ -8,6 +8,7 @@ const router = useRouter();
 
 const id = route.params.id;
 
+// get the car
 const car =  cars.find(car => car.id === parseInt(id))
 
 const getContact = () => {
@@ -21,7 +22,7 @@ const getContact = () => {
 </script>
 
 <template>
-  <div>
+  <div v-if="car">
     <h1>Car View</h1>
     <!-- {{ car }} -->
     <p>{{ car.name }}</p>
@@ -30,6 +31,9 @@ const getContact = () => {
     <p>Price: {{ car.price }}</p>
     <button @click="getContact" >Contact Us</button>
     <RouterView />
+  </div>
+  <div v-else>
+    <h1>Car not found!</h1>
   </div>
 </template>
 
