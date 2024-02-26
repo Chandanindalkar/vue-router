@@ -10,6 +10,14 @@ const id = route.params.id;
 
 const car =  cars.find(car => car.id === parseInt(id))
 
+const getContact = () => {
+  if(id == "6") {
+    console.log(`No Contact for cardID: ${id}`);
+    return;
+  }
+  return router.push(`/cars/${id}/contact`);
+}
+
 </script>
 
 <template>
@@ -20,7 +28,7 @@ const car =  cars.find(car => car.id === parseInt(id))
     <p>Year: {{ car.year }}</p>
     <p>KM: {{ car.year }}</p>
     <p>Price: {{ car.price }}</p>
-    <button @click="router.push(`/cars/${id}/contact`)" >Contact Us</button>
+    <button @click="getContact" >Contact Us</button>
     <RouterView />
   </div>
 </template>
