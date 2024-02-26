@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Koenigsegg",
+        "price": 4250000,
+        "year": 2020,
+        "km": 1100,
+        "contact": {
+            "dealer": "cars24",
+            "number": "111-111-1111"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Maserati",
+        "price": 950000,
+        "year": 2019,
+        "contact": {
+            "dealer": "Car Dekho",
+            "number": "222-111-1111"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Rimac Nevera",
+        "price": 2000000,
+        "year": 2022,
+        "contact": {
+            "dealer": "Spinny",
+            "number": "333-111-1111"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Lotus Exige",
+        "price": 85000,
+        "year": 2021,
+        "contact": {
+            "dealer": "OLX",
+            "number": "444-111-1111"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Nissan GTR",
+        "price": 100000,
+        "year": 2018,
+        "contact": {
+            "dealer": "True Value",
+            "number": "555-111-1111"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Bugatti",
+        "price": 5000000,
+        "year": 2024,
+        "contact": {
+            "dealer": "Carvana",
+            "number": "666-111-1111"
+        }
+    }
+]
